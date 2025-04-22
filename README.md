@@ -42,18 +42,21 @@ This repository showcases interactive dashboards developed using **Power BI** an
   - Structured into Summary, Overview, Details, Tooltips, and Drillthrough Pages for unique perspectives and granular views of the loan data.  
   - Utilized SQL for validating and calculating metrics displayed in charts, ensuring accuracy and consistency across visualizations.
 
+### 6. [Amazon Tech Product Dashboard](https://github.com/alaaalzakla/dashboards/tree/Amazon-Tech#amazon-tech-product-sales-analysis)
+- **Description**:  
+  This project analyzes Amazon's phone product listings to uncover trends in sales volume, revenue, pricing, and the impact of Amazon-specific badges.
+- **Highlights**:  
+  - Cleaned and prepared the data using Python for consistency and numeric transformation.  
+  - Performed SQL analysis to explore brand performance, badge influence, discount patterns, and product rating trustworthiness.  
+  - Developed a Power BI dashboard highlighting key business insights including top brands, pricing impact, badge effects, and customer perception.  
+  - Included a presentation to summarize strategic recommendations such as focusing on the $0–$500 price range and encouraging verified reviews.
+
 ## Tools and Technologies
 - **SQL**: Used for data extraction, transformation, and validation to ensure accuracy.
 - **Power BI**: Leveraged for interactive and visually engaging dashboards.
+- **Python**: Used for cleaning data and fill missing values.
 
 ## How to Use
 1. Clone the repository:  
    ```bash
    git clone https://github.com/alaaalzakla/dashboards.git
-   ```
-2. Navigate to the branch of interest and explore the README for details on the specific dashboard.
-
----
-
-For further details, contributions, or inquiries, please contact [Your Contact Information].
-
