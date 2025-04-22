@@ -1,59 +1,100 @@
-# Dashboards Repository
+# 📱 Amazon Tech Product Sales Analysis
 
-## Overview
-This repository showcases interactive dashboards developed using **Power BI** and supported by **SQL** analysis. Each project explores unique datasets to uncover meaningful insights and visualize them effectively.
+## 🧩 Project Overview
 
-## Branches and Projects
-
-### 1. [Pizza Sales Analysis](https://github.com/alaaalzakla/dashboards/blob/Pizza-Sales-Analysis/README.md#pizza-sales-analysis-and-visualization)
-- **Description**:  
-  Analyzes pizza sales data, uncovering trends in sales performance, customer preferences, and product performance.
-- **Highlights**:  
-  - Conducted SQL analysis to ensure accuracy in calculations.  
-  - Visualized results in Power BI, including top-selling and least-performing products, busiest times, and revenue insights.
-
-### 2. [Video Game Sales Dashboard](https://github.com/alaaalzakla/dashboards/blob/Videogames-pitch-sale/README.md#video-game-sales-dashboard-with-power-bi)
-- **Description**:  
-  A Power BI dashboard that explores global video game sales across platforms and genres.
-- **Highlights**:  
-  - Evaluates sales distribution by region, genre, and platform.  
-  - Identifies top-performing games and trends in the gaming industry.
-
-### 3. [IMDB Dashboard](https://github.com/alaaalzakla/dashboards/tree/IMDB#imdb-dashboard-with-power-bi)
-- **Description**:  
-  Analyzes a dataset of movies and TV shows from IMDB to identify trends in ratings, genres, and release years.
-- **Highlights**:  
-  - Provides insights into the most popular movies and series.  
-  - Explores correlations between ratings and release years.
-
-### 4. [HR Management Dashboard](https://github.com/alaaalzakla/dashboards/tree/HR-Management#hr-management-dashboard)
-- **Description**:  
-  A comprehensive HR analysis tool that focuses on employee data, including turnover, separations, new hires, and region-based demographics.
-- **Highlights**:  
-  - Combines data from SQL Server and Excel.  
-  - Visualizes employee metrics using slicers, filters, and pivot tables for an interactive experience.  
-  - Ensures calculation accuracy across different data sources.
-
-### 5. [Financial Loans Dashboard](https://github.com/alaaalzakla/dashboards/tree/Bank-Loan#financial-loans-dashboard)
-- **Description**:  
-  This Financial Loans Dashboard provides an in-depth analysis of loan data collected between January 1, 2021, and December 12, 2021, offering key insights into the performance of financial loan applications.
-- **Highlights**:  
-  - Analyzes metrics such as average Debt-to-Income (DTI) ratio, average interest rates, total loan amounts, and loan groupings.  
-  - Structured into Summary, Overview, Details, Tooltips, and Drillthrough Pages for unique perspectives and granular views of the loan data.  
-  - Utilized SQL for validating and calculating metrics displayed in charts, ensuring accuracy and consistency across visualizations.
-
-## Tools and Technologies
-- **SQL**: Used for data extraction, transformation, and validation to ensure accuracy.
-- **Power BI**: Leveraged for interactive and visually engaging dashboards.
-
-## How to Use
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/alaaalzakla/dashboards.git
-   ```
-2. Navigate to the branch of interest and explore the README for details on the specific dashboard.
+This project investigates sales trends, pricing dynamics, and promotional badge impacts of Amazon's tech phone products. It utilizes **Python** for data cleaning, **SQL** for deep analysis, and **Power BI** for visualization and strategic presentation. The goal was to provide actionable insights for product positioning, discount strategies, and performance optimization across various brands.
 
 ---
 
-For further details, contributions, or inquiries, please contact [Your Contact Information].
+## 📂 Contents
+
+- **Raw Data**: Original dataset of Amazon phone product listings.
+- **Python Cleaning Script**: Preprocessing and cleaning the dataset.
+- **SQL Analysis File**: Queries used to derive insights and perform aggregations.
+- **Power BI Dashboard**: Visual representation of key metrics and trends.
+- **Presentation**: Business-oriented summary of findings and recommendations.
+
+---
+
+## 🛠️ Tools Used
+
+- **Python (Pandas, NumPy)** – Data cleaning and transformation  
+- **SQL (SSMS / SQLite)** – Analytical querying and aggregations  
+- **Power BI** – Dashboard creation and interactive storytelling  
+- **Microsoft PowerPoint** – Insight-driven presentation design
+
+---
+
+## 🧼 Data Cleaning (Python)
+
+The dataset was carefully cleaned and preprocessed using Python to ensure accuracy and consistency before analysis. The main cleaning tasks included:
+
+- Removing duplicate entries based on unique product identifiers  
+- Cleaning and transforming the sales volume data to standard numeric format  
+- Converting key fields like star ratings, number of ratings, and number of offers into numeric types for analysis  
+- Performing exploratory checks to identify outliers and inconsistencies  
+
+This preprocessing ensured the dataset was structured and analysis-ready for SQL and Power BI.
+
+
+
+---
+
+## 🔍 Data Analysis (SQL)
+
+SQL was used for aggregating, grouping, and filtering insights:
+
+- Calculated **total sales and revenue** per brand  
+- Derived **average discounts** and **average star ratings** by product and brand  
+- Filtered by badge categories (Best Seller, Amazon’s Choice, etc.)  
+- Assessed **correlation between price, ratings, and sales volume**  
+- Analyzed product count and performance across price ranges  
+
+---
+
+## 📊 Dashboard (Power BI)
+
+The Power BI dashboard provided a visually engaging exploration of:
+
+- 📈 **Revenue & Sales** by brand (Samsung led with $10.25M)  
+- 🏷️ **Badge Impacts** (Amazon’s Choice had the highest per-product sales)  
+- 💸 **Discount Effectiveness** (10%–30% discounts performed best)  
+- ⭐ **Ratings vs Reviews** trust patterns  
+- 📦 **Prime & Shipping Influence** on customer trust and conversion  
+- 📊 Price range concentration ($0–$500 dominated sales volume)  
+
+> 📌 The dashboard empowers business users to filter and slice data interactively for deeper decision-making.
+> 🔖 Additionally, in Power BI, Amazon-specific badges such as **"Amazon's Choice"**, **"Best Seller"**, and **"Climate Pledge Friendly"** were categorized and analyzed to assess their impact on sales and customer perception.
+---
+
+## 🧠 Strategic Recommendations (From Presentation)
+
+- Focus inventory and marketing on the **$0–$500 range** for optimal sales  
+- **Segment discount strategies** based on brand and product tier  
+- Promote **mid-range rated products** (4.2–4.5 stars) with high review volume  
+- Increase **verified review campaigns** to boost buyer trust  
+- Leverage badges like **Amazon’s Choice** and **Best Seller** for sales acceleration  
+- **Test discount thresholds** and monitor **margin trade-offs** through A/B testing  
+
+---
+
+## 📌 Key Takeaways
+
+- **Samsung** was the top performer by revenue  
+- **Amazon badges**, though rare, significantly boosted per-product sales  
+- **Moderate discounts** outperform both low and extreme discounts  
+- **High-priced phones** underperform in volume compared to mid-range ones  
+- **Ratings without reviews** can be misleading; volume matters for trust  
+
+---
+
+## 📥 Files Included
+
+- `amazon_phone_raw_data.csv` – Original dataset  
+- `final_project.ipynb` – Python cleaning script  
+- `amazon_phone_analysis.sql` – SQL queries for insights  
+- `Phone Research Dashboard.pbix` – Interactive Power BI dashboard  
+- `Amazon Tech Product Presentation.pptx` – Executive summary presentation  
+
+---
 
